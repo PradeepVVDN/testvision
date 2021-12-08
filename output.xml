@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20211208 12:02:07.080" generator="Robot 4.1.2 (Python 3.5.2 on linux)" rpa="false" schemaversion="2">
+<suite source="/home/vvdn/Desktop/Back_up/Chunichi/testvision/generate_result.robot" name="Generate Result" id="s1">
+<test name="Module1_TC1" id="s1-t1">
+<kw name="Module1 TC1" library="test_vision_internal_two">
+<var>${value}</var>
+<arg>PASS</arg>
+<msg timestamp="20211208 12:02:07.108" level="INFO">${value} = PASS</msg>
+<status starttime="20211208 12:02:07.108" status="PASS" endtime="20211208 12:02:07.108"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${value}</arg>
+<arg>PASS</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status starttime="20211208 12:02:07.109" status="PASS" endtime="20211208 12:02:07.109"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.109" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.109" status="PASS" endtime="20211208 12:02:07.109"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.110" status="PASS" endtime="20211208 12:02:07.110"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.110" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.110" status="PASS" endtime="20211208 12:02:07.110"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.110" status="PASS" endtime="20211208 12:02:07.111"/>
+</kw>
+<tag>Module1_TC1</tag>
+<status starttime="20211208 12:02:07.108" status="PASS" endtime="20211208 12:02:07.111"/>
+</test>
+<test name="Module1_TC2" id="s1-t2">
+<kw name="Module1 TC2" library="test_vision_internal_two">
+<var>${value}</var>
+<arg>FAIL</arg>
+<msg timestamp="20211208 12:02:07.112" level="INFO">${value} = PASS</msg>
+<status starttime="20211208 12:02:07.112" status="PASS" endtime="20211208 12:02:07.112"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${value}</arg>
+<arg>PASS</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status starttime="20211208 12:02:07.112" status="PASS" endtime="20211208 12:02:07.112"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.113" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.112" status="PASS" endtime="20211208 12:02:07.113"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.113" status="PASS" endtime="20211208 12:02:07.113"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.113" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.113" status="PASS" endtime="20211208 12:02:07.113"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.114" status="PASS" endtime="20211208 12:02:07.114"/>
+</kw>
+<tag>Module1_TC2</tag>
+<status starttime="20211208 12:02:07.111" status="PASS" endtime="20211208 12:02:07.114"/>
+</test>
+<test name="Module1_TC3" id="s1-t3">
+<kw name="Module1 TC3" library="test_vision_internal_two">
+<var>${value}</var>
+<arg>PASS</arg>
+<msg timestamp="20211208 12:02:07.115" level="INFO">${value} = PASS</msg>
+<status starttime="20211208 12:02:07.115" status="PASS" endtime="20211208 12:02:07.115"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${value}</arg>
+<arg>PASS</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status starttime="20211208 12:02:07.115" status="PASS" endtime="20211208 12:02:07.115"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.116" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.115" status="PASS" endtime="20211208 12:02:07.116"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.116" status="PASS" endtime="20211208 12:02:07.116"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.116" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.116" status="PASS" endtime="20211208 12:02:07.116"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.117" status="PASS" endtime="20211208 12:02:07.117"/>
+</kw>
+<tag>Module1_TC3</tag>
+<status starttime="20211208 12:02:07.114" status="PASS" endtime="20211208 12:02:07.117"/>
+</test>
+<test name="Module1_TC4" id="s1-t4">
+<kw name="Module1 TC4" library="test_vision_internal_two">
+<var>${value}</var>
+<arg>PASS</arg>
+<msg timestamp="20211208 12:02:07.118" level="INFO">${value} = PASS</msg>
+<status starttime="20211208 12:02:07.118" status="PASS" endtime="20211208 12:02:07.118"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${value}</arg>
+<arg>PASS</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status starttime="20211208 12:02:07.118" status="PASS" endtime="20211208 12:02:07.118"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.119" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.118" status="PASS" endtime="20211208 12:02:07.119"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.119" status="PASS" endtime="20211208 12:02:07.119"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.119" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.119" status="PASS" endtime="20211208 12:02:07.119"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.120" status="PASS" endtime="20211208 12:02:07.120"/>
+</kw>
+<tag>Module1_TC4</tag>
+<status starttime="20211208 12:02:07.117" status="PASS" endtime="20211208 12:02:07.120"/>
+</test>
+<test name="Module1_TC5" id="s1-t5">
+<kw name="Module1 TC5" library="test_vision_internal_two">
+<var>${value}</var>
+<arg>PASS</arg>
+<msg timestamp="20211208 12:02:07.121" level="INFO">${value} = PASS</msg>
+<status starttime="20211208 12:02:07.120" status="PASS" endtime="20211208 12:02:07.121"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${value}</arg>
+<arg>PASS</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status starttime="20211208 12:02:07.121" status="PASS" endtime="20211208 12:02:07.121"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.122" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.121" status="PASS" endtime="20211208 12:02:07.122"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.122" status="PASS" endtime="20211208 12:02:07.122"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.122" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.122" status="PASS" endtime="20211208 12:02:07.122"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.123" status="PASS" endtime="20211208 12:02:07.123"/>
+</kw>
+<tag>Module1_TC5</tag>
+<status starttime="20211208 12:02:07.120" status="PASS" endtime="20211208 12:02:07.123"/>
+</test>
+<test name="Module2_TC1" id="s1-t6">
+<kw name="Module2 TC1" library="test_vision_internal_two">
+<var>${value}</var>
+<arg>PASS</arg>
+<msg timestamp="20211208 12:02:07.124" level="INFO">${value} = PASS</msg>
+<status starttime="20211208 12:02:07.124" status="PASS" endtime="20211208 12:02:07.124"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${value}</arg>
+<arg>PASS</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status starttime="20211208 12:02:07.124" status="PASS" endtime="20211208 12:02:07.124"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.125" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.124" status="PASS" endtime="20211208 12:02:07.125"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.125" status="PASS" endtime="20211208 12:02:07.125"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.125" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.125" status="PASS" endtime="20211208 12:02:07.125"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.126" status="PASS" endtime="20211208 12:02:07.126"/>
+</kw>
+<tag>Module2_TC1</tag>
+<status starttime="20211208 12:02:07.123" status="PASS" endtime="20211208 12:02:07.126"/>
+</test>
+<test name="Module2_TC2" id="s1-t7">
+<kw name="Module2 TC2" library="test_vision_internal_two">
+<var>${value}</var>
+<arg>PASS</arg>
+<msg timestamp="20211208 12:02:07.127" level="INFO">${value} = PASS</msg>
+<status starttime="20211208 12:02:07.127" status="PASS" endtime="20211208 12:02:07.127"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${value}</arg>
+<arg>PASS</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status starttime="20211208 12:02:07.127" status="PASS" endtime="20211208 12:02:07.127"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.128" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.127" status="PASS" endtime="20211208 12:02:07.128"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.128" status="PASS" endtime="20211208 12:02:07.128"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.128" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.128" status="PASS" endtime="20211208 12:02:07.129"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.129" status="PASS" endtime="20211208 12:02:07.129"/>
+</kw>
+<tag>Module2_TC2</tag>
+<status starttime="20211208 12:02:07.126" status="PASS" endtime="20211208 12:02:07.129"/>
+</test>
+<test name="Module2_TC3" id="s1-t8">
+<kw name="Module2 TC3" library="test_vision_internal_two">
+<var>${value}</var>
+<arg>PASS</arg>
+<msg timestamp="20211208 12:02:07.130" level="INFO">${value} = PASS</msg>
+<status starttime="20211208 12:02:07.130" status="PASS" endtime="20211208 12:02:07.130"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${value}</arg>
+<arg>PASS</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status starttime="20211208 12:02:07.130" status="PASS" endtime="20211208 12:02:07.130"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.131" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.130" status="PASS" endtime="20211208 12:02:07.131"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.131" status="PASS" endtime="20211208 12:02:07.131"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.132" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.131" status="PASS" endtime="20211208 12:02:07.132"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.132" status="PASS" endtime="20211208 12:02:07.132"/>
+</kw>
+<tag>Module2_TC3</tag>
+<status starttime="20211208 12:02:07.129" status="PASS" endtime="20211208 12:02:07.132"/>
+</test>
+<test name="Module2_TC4" id="s1-t9">
+<kw name="Module2 TC4" library="test_vision_internal_two">
+<var>${value}</var>
+<arg>PASS</arg>
+<msg timestamp="20211208 12:02:07.133" level="INFO">${value} = PASS</msg>
+<status starttime="20211208 12:02:07.133" status="PASS" endtime="20211208 12:02:07.133"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${value}</arg>
+<arg>PASS</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status starttime="20211208 12:02:07.133" status="PASS" endtime="20211208 12:02:07.134"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.134" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.134" status="PASS" endtime="20211208 12:02:07.134"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.134" status="PASS" endtime="20211208 12:02:07.134"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.135" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.135" status="PASS" endtime="20211208 12:02:07.135"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.135" status="PASS" endtime="20211208 12:02:07.135"/>
+</kw>
+<tag>Module2_TC4</tag>
+<status starttime="20211208 12:02:07.132" status="PASS" endtime="20211208 12:02:07.135"/>
+</test>
+<test name="Module2_TC5" id="s1-t10">
+<kw name="Module2 TC5" library="test_vision_internal_two">
+<var>${value}</var>
+<arg>PASS</arg>
+<msg timestamp="20211208 12:02:07.136" level="INFO">${value} = PASS</msg>
+<status starttime="20211208 12:02:07.136" status="PASS" endtime="20211208 12:02:07.136"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${value}</arg>
+<arg>PASS</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status starttime="20211208 12:02:07.137" status="PASS" endtime="20211208 12:02:07.137"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.137" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.137" status="PASS" endtime="20211208 12:02:07.137"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.137" status="PASS" endtime="20211208 12:02:07.138"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.138" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.138" status="PASS" endtime="20211208 12:02:07.138"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.138" status="PASS" endtime="20211208 12:02:07.138"/>
+</kw>
+<tag>Module2_TC5</tag>
+<status starttime="20211208 12:02:07.136" status="PASS" endtime="20211208 12:02:07.138"/>
+</test>
+<test name="Module3_TC1" id="s1-t11">
+<kw name="Module3 TC1" library="test_vision_internal_two">
+<var>${value}</var>
+<arg>PASS</arg>
+<msg timestamp="20211208 12:02:07.140" level="INFO">${value} = PASS</msg>
+<status starttime="20211208 12:02:07.139" status="PASS" endtime="20211208 12:02:07.140"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${value}</arg>
+<arg>PASS</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status starttime="20211208 12:02:07.140" status="PASS" endtime="20211208 12:02:07.140"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.140" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.140" status="PASS" endtime="20211208 12:02:07.140"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.141" status="PASS" endtime="20211208 12:02:07.141"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.141" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.141" status="PASS" endtime="20211208 12:02:07.141"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.141" status="PASS" endtime="20211208 12:02:07.141"/>
+</kw>
+<tag>Module3_TC1</tag>
+<status starttime="20211208 12:02:07.139" status="PASS" endtime="20211208 12:02:07.142"/>
+</test>
+<test name="Module3_TC2" id="s1-t12">
+<kw name="Module2 TC2" library="test_vision_internal_two">
+<var>${value}</var>
+<arg>PASS</arg>
+<msg timestamp="20211208 12:02:07.143" level="INFO">${value} = PASS</msg>
+<status starttime="20211208 12:02:07.142" status="PASS" endtime="20211208 12:02:07.143"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${value}</arg>
+<arg>PASS</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status starttime="20211208 12:02:07.143" status="PASS" endtime="20211208 12:02:07.143"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.143" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.143" status="PASS" endtime="20211208 12:02:07.143"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.143" status="PASS" endtime="20211208 12:02:07.144"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.144" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.144" status="PASS" endtime="20211208 12:02:07.144"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.144" status="PASS" endtime="20211208 12:02:07.144"/>
+</kw>
+<tag>Module2_TC2</tag>
+<status starttime="20211208 12:02:07.142" status="PASS" endtime="20211208 12:02:07.145"/>
+</test>
+<test name="Module3_TC3" id="s1-t13">
+<kw name="Module3 TC3" library="test_vision_internal_two">
+<var>${value}</var>
+<arg>PASS</arg>
+<msg timestamp="20211208 12:02:07.145" level="INFO">${value} = PASS</msg>
+<status starttime="20211208 12:02:07.145" status="PASS" endtime="20211208 12:02:07.146"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${value}</arg>
+<arg>PASS</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status starttime="20211208 12:02:07.146" status="PASS" endtime="20211208 12:02:07.146"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.146" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.146" status="PASS" endtime="20211208 12:02:07.146"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.146" status="PASS" endtime="20211208 12:02:07.147"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.147" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.147" status="PASS" endtime="20211208 12:02:07.147"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.147" status="PASS" endtime="20211208 12:02:07.147"/>
+</kw>
+<tag>Module3_TC3</tag>
+<status starttime="20211208 12:02:07.145" status="PASS" endtime="20211208 12:02:07.148"/>
+</test>
+<test name="Module3_TC4" id="s1-t14">
+<kw name="Module3 TC4" library="test_vision_internal_two">
+<var>${value}</var>
+<arg>PASS</arg>
+<msg timestamp="20211208 12:02:07.148" level="INFO">${value} = PASS</msg>
+<status starttime="20211208 12:02:07.148" status="PASS" endtime="20211208 12:02:07.148"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${value}</arg>
+<arg>PASS</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status starttime="20211208 12:02:07.149" status="PASS" endtime="20211208 12:02:07.149"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.149" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.149" status="PASS" endtime="20211208 12:02:07.149"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.149" status="PASS" endtime="20211208 12:02:07.150"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.150" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.150" status="PASS" endtime="20211208 12:02:07.150"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.150" status="PASS" endtime="20211208 12:02:07.150"/>
+</kw>
+<tag>Module3_TC4</tag>
+<status starttime="20211208 12:02:07.148" status="PASS" endtime="20211208 12:02:07.151"/>
+</test>
+<test name="Module3_TC5" id="s1-t15">
+<kw name="Module3 TC5" library="test_vision_internal_two">
+<var>${value}</var>
+<arg>PASS</arg>
+<msg timestamp="20211208 12:02:07.151" level="INFO">${value} = PASS</msg>
+<status starttime="20211208 12:02:07.151" status="PASS" endtime="20211208 12:02:07.151"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${value}</arg>
+<arg>PASS</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status starttime="20211208 12:02:07.152" status="PASS" endtime="20211208 12:02:07.152"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.152" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.152" status="PASS" endtime="20211208 12:02:07.152"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.152" status="PASS" endtime="20211208 12:02:07.153"/>
+</kw>
+<kw name="Get Time" library="BuiltIn">
+<var>${d1}</var>
+<doc>Returns the given time in the requested format.</doc>
+<msg timestamp="20211208 12:02:07.153" level="INFO">${d1} = 2021-12-08 12:02:07</msg>
+<status starttime="20211208 12:02:07.153" status="PASS" endtime="20211208 12:02:07.153"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${d1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status starttime="20211208 12:02:07.153" status="PASS" endtime="20211208 12:02:07.153"/>
+</kw>
+<tag>Module3_TC5</tag>
+<status starttime="20211208 12:02:07.151" status="PASS" endtime="20211208 12:02:07.154"/>
+</test>
+<status starttime="20211208 12:02:07.081" status="PASS" endtime="20211208 12:02:07.154"/>
+</suite>
+<statistics>
+<total>
+<stat fail="0" skip="0" pass="15">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" skip="0" pass="1">Module1_TC1</stat>
+<stat fail="0" skip="0" pass="1">Module1_TC2</stat>
+<stat fail="0" skip="0" pass="1">Module1_TC3</stat>
+<stat fail="0" skip="0" pass="1">Module1_TC4</stat>
+<stat fail="0" skip="0" pass="1">Module1_TC5</stat>
+<stat fail="0" skip="0" pass="1">Module2_TC1</stat>
+<stat fail="0" skip="0" pass="2">Module2_TC2</stat>
+<stat fail="0" skip="0" pass="1">Module2_TC3</stat>
+<stat fail="0" skip="0" pass="1">Module2_TC4</stat>
+<stat fail="0" skip="0" pass="1">Module2_TC5</stat>
+<stat fail="0" skip="0" pass="1">Module3_TC1</stat>
+<stat fail="0" skip="0" pass="1">Module3_TC3</stat>
+<stat fail="0" skip="0" pass="1">Module3_TC4</stat>
+<stat fail="0" skip="0" pass="1">Module3_TC5</stat>
+</tag>
+<suite>
+<stat fail="0" name="Generate Result" skip="0" pass="15" id="s1">Generate Result</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
